@@ -1,0 +1,22 @@
+body{
+    background-color: beige;
+}
+p{
+    color: brown;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+#test1{
+    color: #1e8b00;
+}
+#test2{
+    color: #7f8aff;
+}
