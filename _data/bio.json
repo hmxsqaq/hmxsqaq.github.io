@@ -16,7 +16,7 @@
     { "name": "Game Development" },
     { "name": "Computer Science" },
     { "name": "3D Graphics" },
-    { "name": "Interactive media" }
+    { "name": "Interactive Media" }
   ],
   "skills": [
     {
@@ -33,7 +33,7 @@
       "institution": "Communication University of China, Beijing, China",
       "area": "Digital Media Technology (Game Design Technology Track) (expected Spring, 2026)",
       "studyType": "B.E.",
-      "startDate": "2021-09-01",
+      "startDate": "Sep. 2021",
       "endDate": "Present",
       "courses": [
         "Data Structures & Algorithms",
@@ -46,11 +46,11 @@
   ],
   "work": [
     {
-      "company": "Tencent Games | TiMi Studio Group | Delta Force Team",
+      "company": "Tencent Games | Delta Force Team",
       "position": "Gameplay Programmer",
-      "website": "",
-      "startDate": "2026-06-18",
-      "endDate": "2026-09-04",
+      "website": "https://www.playdeltaforce.com/",
+      "startDate": "Jun. 2025",
+      "endDate": "Sep. 2025",
       "summary": "Internship",
       "highlights": [
         "Boosted the performance of the Spine animation system in Unreal Engine",
@@ -58,15 +58,14 @@
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
+  "projects": [{
+    "name": "Project",
+    "startDate": "2019-01-01",
+    "endDate": "2021-01-01",
+    "description": "Description...",
     "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
+      "Won award at AIHacks 2016"
+    ],
+    "url": "https://project.com/"
   }]
 }
