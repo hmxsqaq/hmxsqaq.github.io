@@ -33,7 +33,7 @@
       "institution": "Communication University of China, Beijing, China",
       "area": "Digital Media Technology (Game Design Technology Track) (expected Spring, 2026)",
       "studyType": "B.E.",
-      "startDate": "Sep. 2021",
+      "startDate": "Sep 2021",
       "endDate": "Present",
       "courses": [
         "Data Structures & Algorithms",
@@ -47,11 +47,11 @@
   "work": [
     {
       "company": "Tencent Games | Delta Force Team",
-      "position": "Gameplay Programmer",
-      "website": "https://www.playdeltaforce.com/",
-      "startDate": "Jun. 2025",
-      "endDate": "Sep. 2025",
-      "summary": "Internship",
+      "position": "Gameplay Programmer Intern",
+      "website": "https://www.playdeltaforce.com",
+      "startDate": "Jun 2025",
+      "endDate": "Sep 2025",
+      "summary": "",
       "highlights": [
         "Boosted the performance of the Spine animation system in Unreal Engine",
         "Resolved critical UI rendering bugs within the Spine UE Runtime"
@@ -60,12 +60,12 @@
   ],
   "projects": [{
     "name": "Project",
-    "startDate": "2019-01-01",
-    "endDate": "2021-01-01",
+    "url": "https://project.com/",
+    "startDate": "Jun 2025",
+    "endDate": "Sep 2025",
     "description": "Description...",
     "highlights": [
       "Won award at AIHacks 2016"
-    ],
-    "url": "https://project.com/"
+    ]
   }]
 }
