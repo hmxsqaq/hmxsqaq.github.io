@@ -1,0 +1,6 @@
+﻿.card .rounded-start {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 225px; /* 设置最大高度 */
+}
