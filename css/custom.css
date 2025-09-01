@@ -16,8 +16,8 @@
     margin-right: auto;
 
     /*!* 图片美化 *!*/
-    /*border-radius: 4px;*/
-    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
     /* 尺寸控制 */
     max-height: 500px;
