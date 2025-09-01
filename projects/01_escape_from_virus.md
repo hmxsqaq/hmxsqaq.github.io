@@ -12,7 +12,7 @@ labels:
 summary: "A mini serious game inspired by the COVID-19, developed during the CUC Serious Game Workshop 2022."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261533351.png">
+<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261533351.png" alt="picture">
 
 # Escape From Virus
 
@@ -31,19 +31,19 @@ I served as the sole programmer on this project, responsible for writing all the
 
 This is a 2D vertical bullet-hell and action-agility game.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261547150.png">
+<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261547150.png" alt="picture">
 
 ## Game Mechanics
 
 Players take on the role of "Ani" or "A-Meow," dodging bullet-hell patterns representing the coronavirus that attack from all sides of the screen. During gameplay, they should collect as many pandemic prevention items as possible, such as masks, to gain buffs that help them survive.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261548998.png">
+<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261548998.png" alt="picture">
 
 ## Game Introduction
 
 By answering pandemic-related questions, players earn cat food and strive to survive for as long as possible. The longer you survive, the higher your score.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261548606.png">
+<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261548606.png" alt="picture">
 
 ## Creative Intent
 
