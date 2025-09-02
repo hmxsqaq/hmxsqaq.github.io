@@ -16,7 +16,7 @@ summary: "Final project for the 'Game Creation I' course.<br>A 2D platformer tha
 
 # The Nuo Lion
 
-> **Intro Video**: [https://www.bilibili.com/video/BV1Su411t7b8/](https://www.bilibili.com/video/BV1Su411t7b8/)
+> **Gameplay Video**: [https://www.bilibili.com/video/BV1Su411t7b8/](https://www.bilibili.com/video/BV1Su411t7b8/)
 
 I served as the sole programmer on this project, responsible for writing all the code using the Unity engine.
 

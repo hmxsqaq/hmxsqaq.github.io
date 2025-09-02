@@ -18,7 +18,7 @@ summary: "An AI-themed Game Jam requiring over 50% of the game's art, code, and 
 
 > **Game Page:** [https://gmhub.com/game/2005](https://gmhub.com/game/2005)
 >
-> **Intro Video:** [https://www.bilibili.com/video/BV1U44y1Z7oU/](https://www.bilibili.com/video/BV1U44y1Z7oU/)
+> **Gameplay Video:** [https://www.bilibili.com/video/BV1U44y1Z7oU/](https://www.bilibili.com/video/BV1U44y1Z7oU/)
 
 I served as a programmer on this project, responsible for writing a portion of the code using the Unity engine.
 

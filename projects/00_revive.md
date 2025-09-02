@@ -14,7 +14,7 @@ summary: "A 72h Game Jam hosted by the School of Animation and Digital Arts of C
 
 <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261605787.png" alt="picture">
 
-> **Intro Video**: [https://www.bilibili.com/video/BV1p44y1Q7tY/](https://www.bilibili.com/video/BV1p44y1Q7tY/)
+> **Gameplay Video**: [https://www.bilibili.com/video/BV1p44y1Q7tY/](https://www.bilibili.com/video/BV1p44y1Q7tY/)
 
 I served as a programmer and designer on this project, responsible for designing and implementing level2 using the Unity engine.
 

@@ -16,7 +16,7 @@ summary: "A mini serious game inspired by the COVID-19, developed during the CUC
 
 # Escape From Virus
 
-> **Intro Video**: [https://mp.weixin.qq.com/s/vUAJRW31vuiZmy-ZV_FtrA](https://mp.weixin.qq.com/s/vUAJRW31vuiZmy-ZV_FtrA)
+> **Game Page**: [https://mp.weixin.qq.com/s/vUAJRW31vuiZmy-ZV_FtrA](https://mp.weixin.qq.com/s/vUAJRW31vuiZmy-ZV_FtrA)
 
 I served as the sole programmer on this project, responsible for writing all the code using the Unity engine.
 
