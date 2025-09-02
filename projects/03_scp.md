@@ -37,8 +37,8 @@ You will encounter numerous SCP entities along your path. Use your knowledge and
 
 ## Screenshots
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535994.png" alt="picture">
-
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535175.png" alt="picture">
-
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535877.png" alt="picture">
+<div class="text-center p-4">
+  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535994.png" class="img-thumbnail" >
+  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535175.png" class="img-thumbnail" >
+  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535877.png" class="img-thumbnail" >
+</div>
