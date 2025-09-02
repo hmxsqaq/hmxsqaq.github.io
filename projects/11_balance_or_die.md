@@ -18,6 +18,8 @@ summary: "A Game Jam entry with the theme '和(Harmony).'"
 
 > **Gameplay Video**: [https://www.bilibili.com/video/BV1ZE6PYmE1F/](https://www.bilibili.com/video/BV1ZE6PYmE1F/)
 
+I served as a programmer and designer on this project.
+
 ## About the Game
 
 > Harmonize everything, balance everything.
