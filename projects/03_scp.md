@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: 'https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221534305.jpg'
-title: "「SCP」Game Creation I"
+title: "「SCP」Game Creation Ⅰ"
 date: 2023-05-21
 published: true
 labels:
   - GameDev
   - Unity
   - Horror
-summary: "Week 3 group project for the 'Game Creation I' course.<br>A 2D horror game based on the SCP universe."
+summary: "The week 3 group project for the 'Game Creation I' course.<br>A 2D horror game based on the SCP universe."
 ---
 
 <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221534305.jpg" alt="picture">

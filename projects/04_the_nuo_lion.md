@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: 'https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161452197.png'
-title: "「The Nuo Lion」Game Creation I"
+title: "「The Nuo Lion」Game Creation Ⅰ"
 date: 2023-06-30
 published: true
 labels:
