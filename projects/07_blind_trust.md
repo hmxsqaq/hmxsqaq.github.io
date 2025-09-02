@@ -20,6 +20,8 @@ summary: "The week 3 group project for the 'Game Creation 2' course.<br>A two-pl
 >
 > **Project Repository**: [https://github.com/GameCreation2-2024-NoName/Blind-Trust](https://github.com/GameCreation2-2024-NoName/Blind-Trust)
 
+I served as a programmer on this project, responsible for writing a portion of the code using the Unity engine.
+
 ## Team Members
 
 - **Designers**: [@gu0kke](https://space.bilibili.com/423851637), [@夜之凝殇_](https://space.bilibili.com/178969683)

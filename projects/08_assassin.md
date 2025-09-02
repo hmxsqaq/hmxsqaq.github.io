@@ -26,6 +26,11 @@ summary: "The final project for the 'Game Creation 2' course.<br>A two-player ve
 - **Programmers**: [@紫地丁Pditine](https://space.bilibili.com/89364405), **[@徽墨行深 (Zehua Wu)](https://space.bilibili.com/11752174)**
 - **Artists**: [@Starlight点点](https://space.bilibili.com/26404651), [@无骨小鸡 (Boneless Chicken)](https://space.bilibili.com/505778653)
 
+I served as a programmer on this project, responsible for:
+- Implementing key systems including UI, enemy AI behavior, and the new player tutorial logic. 
+- Enhancing game feel by integrating impactful visual and audio feedback for player actions. 
+- Collaborating with the team using Git for version control in a fast-paced development cycle.
+
 ## About the Game
 
 > "To poke each other is justice." — The King of "AssAssIn"

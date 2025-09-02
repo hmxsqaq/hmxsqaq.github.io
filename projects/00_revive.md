@@ -9,7 +9,7 @@ labels:
   - GameDev
   - Unity
   - GameJam
-summary: "A 72h Game Jam hosted by the School of Animation and Digital Arts of CUC and Unreal Engine.<br>This was my first Game Jam, a truly memorable experience."
+summary: "Project of a 72h Game Jam hosted by the School of Animation and Digital Arts of CUC and Unreal Engine.<br>This was my first Game Jam, a truly memorable experience."
 ---
 
 <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261605787.png" alt="picture">
