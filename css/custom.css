@@ -6,17 +6,28 @@
 }
 
 .my-markdowm-img {
-    /* 基本响应式设置 */
     max-width: 100%;
     height: auto;
 
     display: block;
-    margin: 1rem auto 1.5rem;
+    margin: 1.5rem auto;
 
-    /*!* 图片美化 *!*/
-    border-radius: 6px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
-    /* 尺寸控制 */
     max-height: 500px;
+}
+
+.my-profile-picture {
+    width: 350px;
+    height: 350px;
+    object-fit: cover; /* 如果原图不是正方形，防止图像被拉伸变形 */
+
+    display: block;
+    margin: 1.5rem auto;
+
+    border-radius: 10%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25); /* 借鉴并微调了阴影效果，使其更柔和 */
+
+    max-width: 100%;
 }

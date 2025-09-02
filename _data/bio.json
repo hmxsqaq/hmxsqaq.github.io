@@ -2,11 +2,11 @@
   "basics": {
     "name": "ZeHua Wu",
     "label": "Student",
-    "picture": "https://github.com/hmxsqaq.png",
+    "picture": "https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/portfolio/profile.jpg",
     "email": "hmxsqaq@gmail.com",
     "phone": "86-18321938171",
     "website": "https://hmxs.games",
-    "summary": "I am studying for a B.E. in Digital Media Technology (Game Design Technology Track) at the Communication University of China. I expect to graduate in Spring, 2026.",
+    "summary": "A driven game developer and Digital Media Technology student at the Communication University of China(CUC), specializing in C++/C# and engines like Unity and Godot.<br><br>Let's build something amazing together!",
     "location": { "address": "", "postalCode": "", "city": "Shanghai", "countryCode": "China", "region": "" },
     "profiles": [
       { "network": "github", "username": "hmxsqaq", "url": "https://github.com/hmxsqaq" }
