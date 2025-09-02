@@ -10,6 +10,7 @@ labels:
   - Unity
   - Party
 summary: "The final project for the 'Game Creation 2' course.<br>A two-player versus game with satisfying, collision-based gameplay."
+weight: 2
 ---
 
 <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211639045.png" alt="picture">

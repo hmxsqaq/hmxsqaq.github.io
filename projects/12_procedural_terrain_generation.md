@@ -11,6 +11,7 @@ labels:
   - Procedural Generation
   - Noise
 summary: "Exploring the principles, implementation, and practical applications of the Perlin noise algorithm in procedural generation from a beginner's perspective."
+weight: 4
 ---
 
 <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281303069.jpg" alt="picture">

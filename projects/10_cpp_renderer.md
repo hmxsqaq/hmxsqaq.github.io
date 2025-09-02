@@ -9,6 +9,7 @@ labels:
   - C/C++
   - Graphics
 summary: "Final project for the 'Computer Graphics' course.<br>A software rasterizer built from the ground up with no third-party dependencies."
+weight: 3
 ---
 
 # Developing a C++ Software Renderer from Scratch
