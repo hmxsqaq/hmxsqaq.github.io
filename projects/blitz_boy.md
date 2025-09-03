@@ -12,7 +12,7 @@ labels:
 summary: "A 48-hour Game Jam entry with the theme 'Touch.'<br>This was my first in-person Game Jam, held at the Rocket Punch Games site in Beijing."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161555859.webp" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161555859.webp" %}
 
 # Blitz Boy
 
@@ -40,6 +40,6 @@ We hope everyone can enjoy this memorably shocking "TOUCH"!
 
 ## Screenshots
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161603087.webp" alt="picture">
-
-<img class="my-markdowm-img" src="https://files.gmhub.com/storage/upload/hYjVX1ws7olyqOOGhz57oGULQU6pTz0wiXeDtmnt.png.webp" alt="picture">
+{% include projects/image_row.html
+    srcs="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161603087.webp,
+          https://files.gmhub.com/storage/upload/hYjVX1ws7olyqOOGhz57oGULQU6pTz0wiXeDtmnt.png.webp" %}

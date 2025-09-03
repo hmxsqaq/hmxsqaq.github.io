@@ -1,24 +1,21 @@
-<div class="card mb-3">
-  <div class="row g-0">
-    <div class="col-sm-6 col-md-4">
-<!--      <img src={{ include.page.image }} height="225px" class="rounded-start">-->
-      <img src={{ include.page.image }} class="img-fluid rounded-start">
+<div class="card mb-3 position-relative">
+    <div class="row g-0">
+        <div class="col-sm-6 col-md-4">
+            <img src={{ include.page.image }} class="img-fluid rounded-start">
+        </div>
+        <div class="col-sm-6 col-md-8 d-flex flex-column p-3">
+            <div>
+                <h5 class="card-title mb-3">
+                    <a href="{{ site.baseurl}}{{ include.page.url }}" class="stretched-link text-decoration-none text-reset">{{ include.page.title }}</a>
+                    <small class="text-muted float-end">{{ include.page.date }}</small>
+                </h5>
+                <p class="card-text">{{ include.page.summary }}</p>
+            </div>
+            <p class="mt-auto mb-1">
+                {% for label in include.page.labels %}
+                <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
+                {% endfor %}
+            </p>
+        </div>
     </div>
-    <div class="col-sm-6 col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{ include.page.title }} <small class="text-muted float-end">{{ include.page.date }}</small></h5>
-        <p class="card-text">{{ include.page.summary }}</p>
-        <p>
-          {% for label in include.page.labels %}
-          <span style="background-color: var(--tf-pill-bg)" class="badge rounded-pill">{{ label }}</span>
-          {% endfor %}
-        </p>
-        {% if page.projecturl %}
-        <a href="{{ page.projecturl }}" class="btn btn-outline-dark">Project Site</a>
-        {% else %}
-        <a href="{{ site.baseurl}}{{ include.page.url }}" class="btn btn-outline-dark">Read More</a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
 </div>

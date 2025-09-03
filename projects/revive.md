@@ -39,13 +39,13 @@ Take a mother's ten-month pregnancy as an example. The relationship between moth
 
 Genes are always selfish; the fetus's genes, driven unconsciously by the goal of survival, harm the mother. Yet, after growing up and becoming a mother herself, she is harmed in turn. Witnessing death, then accepting one's own death; being a continuation, then continuing the cycle—this repeated inheritance of life is **Revive**. It is through constant death that one understands the inexhaustibility of life.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616467.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616467.png" %}
 
 ## Gameplay
 
 The game consists of three levels, primarily controlled using the WASD keys. Players control a sphere that continuously grows throughout the game, symbolizing the development of life from sperm to zygote to embryo, and finally to the birth of an infant. The process of completing the levels represents the fetus's struggle against and harm to the mother's body, culminating in birth and separation. The game presents an abstract aesthetic, avoiding direct representation of concrete elements. The true nature of the game is only revealed upon completing all three levels.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616505.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616505.png" %}
 
 ## Level Design
 
@@ -55,7 +55,7 @@ The game consists of three levels, primarily controlled using the WASD keys. Pla
 
 **(3) Level 3:** Simulates the fetus sending hormones back to the mother to extract more energy. This is a rhythm-based level controlled with the A and D keys. When a white sphere reaches the judgment line, the player must press D; for a red sphere, they press A. Each successful hit in a combo adds a point, while a miss subtracts one. Upon reaching a certain score, the background changes: the roots of a tree grow longer and more numerous, the falling speed of the spheres increases, and a bleeding sound effect is heard. This symbolizes the blood vessels taking root and the resulting increase in the mother's heart rate. Completing this hormonal transfer finishes the game, heralding the birth of the baby.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616278.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616278.png" %}
 
 ## Art Style
 
@@ -69,4 +69,4 @@ The background music is a solo piano performance, creating a sorrowful and tranq
 
 The primary inspiration was the book *The Selfish Gene*. During the game design process, the mechanics were based on the formation and development of an embryo, emphasizing the harm it causes to the mother during its growth. In production, the map for the first level was based on the fallopian tube, but was distorted and abstracted to match the game's atmosphere. The play area in the second level simulates the uterine environment, with nutrients designed to resemble glucose, essential for the human body. In the third level, the growing fetus is represented as the crown of a tree, with the inverse Kabbalah Tree of Life symbolizing the reverse-flow of hormones, sent without regard for the mother's safety. The red notes symbolize bleeding, while the white notes represent the hope of life's continuation, highlighting the conflict between the mother's suffering and the perpetuation of genes. When the embryo sends these hormones, the mother's bleeding increases, which is why a bleeding sound effect is used. Her heart rate also accelerates, which is why the judgment line is an electrocardiogram (ECG) wave.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616663.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261616663.png" %}

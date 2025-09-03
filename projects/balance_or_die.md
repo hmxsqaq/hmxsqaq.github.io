@@ -12,7 +12,7 @@ labels:
 summary: "A Game Jam entry with the theme '和(Harmony).'"
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202508302254960.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202508302254960.png" %}
 
 # Balance or Die
 
@@ -42,15 +42,15 @@ Use your mouse to drag objects onto the scale, keep it balanced, and don't let a
 
 - Drag falling objects with the mouse.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021425845.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021425845.png" %}
 
 - Place them on the scale to maintain balance.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021427033.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021427033.png" %}
 
 - Drag the entire scale to catch objects.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021428714.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202412021428714.png" %}
 
 ## Asset Sources
 

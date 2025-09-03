@@ -13,7 +13,7 @@ labels:
 summary: "A puzzle game with the theme 'Scale' created for the GMTK Game Jam 2024."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281439687.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281439687.png" %}
 
 # World Piece
 
@@ -39,12 +39,12 @@ In this puzzle game, you take on the role of a scientist tasked with designing a
 
 Players select a basic shape and then apply various components to modify it. The system works like a pipeline: each slot in the sequence modifies the output from the slot to its left. The final result is displayed in the rightmost slot.
 
-<img class="my-markdowm-img" src="https://img.itch.zone/aW1nLzE3NDM2Mjc1LmpwZw==/original/Ke%2B0e6.jpg" alt="picture">
+{% include projects/image.html src="https://img.itch.zone/aW1nLzE3NDM2Mjc1LmpwZw==/original/Ke%2B0e6.jpg" %}
 
 Your goal is to use these components to perfectly match the target blast zone shape.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281441415.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281441415.png" %}
 
-<img class="my-markdowm-img" src="https://img.itch.zone/aW1hZ2UvMjkxMTQwMi8xNzQzMTkzMi5wbmc=/original/%2F3X%2FcA.png" alt="picture">
+{% include projects/image.html src="https://img.itch.zone/aW1hZ2UvMjkxMTQwMi8xNzQzMTkzMi5wbmc=/original/%2F3X%2FcA.png" %}
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281442617.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281442617.png" %}

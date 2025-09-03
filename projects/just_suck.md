@@ -13,7 +13,7 @@ summary: "A 48-hour Game Jam entry with the theme 'Absorb.'<br>It Just Suck."
 weight: 1
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202311010242672.jpeg" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202311010242672.jpeg" %}
 
 # JUST SUCK.
 
@@ -40,6 +40,6 @@ This Game Jam was centered around the theme "Absorb." We chose a **minimalist de
 
 We intentionally minimized superfluous visual elements, instead providing rich feedback through abundant sound effects and dynamic animations to offer players a unique and focused experience.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202312182356619.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202312182356619.png" %}
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202312182356792.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202312182356792.png" %}

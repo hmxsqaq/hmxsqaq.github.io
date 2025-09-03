@@ -12,7 +12,7 @@ labels:
 summary: "The week 1 group project for the *Game Creation 2* course.<br>A 'One Button' party game about inflating balloons."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211553628.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211553628.png" %}
 
 # Blow Up The Balloon
 

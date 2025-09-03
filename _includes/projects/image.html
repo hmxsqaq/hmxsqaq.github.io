@@ -1,0 +1,13 @@
+﻿{% comment %}
+    {% include image.html
+    src="path/to/image.jpg"
+    alt="Description of image" %}
+{% endcomment %}
+
+<figure class="my-image-wrapper">
+    <a href="{{ include.src }}" class="lightbox-trigger">
+        <img src="{{ include.src | strip }}"
+             alt="{{ include.alt | default: 'image' | escape }}"
+             class="my-img">
+    </a>
+</figure>

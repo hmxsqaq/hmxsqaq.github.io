@@ -12,7 +12,7 @@ labels:
 summary: "The week 3 group project for the 'Game Creation I' course.<br>A 2D horror game based on the SCP universe."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221534305.jpg" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221534305.jpg" alt="picture" %}
 
 # SCP
 
@@ -37,8 +37,7 @@ You will encounter numerous SCP entities along your path. Use your knowledge and
 
 ## Screenshots
 
-<div class="text-center p-4">
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535994.png" class="img-thumbnail" >
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535175.png" class="img-thumbnail" >
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535877.png" class="img-thumbnail" >
-</div>
+{% include projects/image_row.html 
+    srcs="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535994.png, 
+          https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535175.png, 
+          https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202305221535877.png" %}

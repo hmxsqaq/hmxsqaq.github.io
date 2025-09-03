@@ -1,0 +1,18 @@
+﻿{% comment %}
+{% include projects/image_row.html
+srcs="url1.jpg, url2.png, url3.gif"
+alts="alt text 1, alt text 2, alt text 3" %}
+{% endcomment %}
+
+{% assign srcs_array = include.srcs | split: ',' %}
+{% assign alts_array = include.alts | split: ',' %}
+
+<div class="my-image-row-wrapper">
+    {% for src in srcs_array %}
+    {% assign image_url = src | strip %}
+    {% assign alt_text = alts_array[forloop.index0] | strip | default: "image" %}
+    <div class="my-image-row-item">
+        {% include projects/image.html src=image_url alt=alt_text %}
+    </div>
+    {% endfor %}
+</div>

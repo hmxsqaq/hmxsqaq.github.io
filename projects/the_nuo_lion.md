@@ -12,7 +12,7 @@ labels:
 summary: "Final project for the 'Game Creation I' course.<br>A 2D platformer that blends traditional Chinese lion dance culture."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161452197.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161452197.png" %}
 
 # The Nuo Lion
 

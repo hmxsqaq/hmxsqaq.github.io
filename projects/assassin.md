@@ -13,7 +13,7 @@ summary: "The final project for the 'Game Creation 2' course.<br>A two-player ve
 weight: 2
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211639045.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211639045.png" %}
 
 # AssAssIn
 
@@ -55,8 +55,7 @@ Of course, if you grow tired of the real-life brawls that follow each match of "
 
 ## Screenshots
 
-<div class="text-center p-4">
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641753.png" class="img-thumbnail" >
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641832.png" class="img-thumbnail" >
-  <img width="400px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641044.png" class="img-thumbnail" >
-</div>
+{% include projects/image_row.html
+    srcs="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641753.png,
+          https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641832.png,
+          https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211641044.png" %}

@@ -12,7 +12,7 @@ labels:
 summary: "Final project for the 'Game Programming Practice' course.<br>A Chinese Chess game with LAN multiplayer support."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161608249.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202307161608249.png" %}
 
 # LAN Chinese Chess
 

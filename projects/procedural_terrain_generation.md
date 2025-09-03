@@ -14,7 +14,7 @@ summary: "Exploring the principles, implementation, and practical applications o
 weight: 4
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281303069.jpg" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281303069.jpg" alt="picture" %}
 
 # Procedural Terrain Generation Using Perlin Noise
 
@@ -38,7 +38,7 @@ In programming, we often use functions like `rand()` to generate random values. 
 
 Perlin Noise is, as its name suggests, a type of noise. It is a noise generation algorithm that produces continuous, smooth, and hashable (deterministic) random values, avoiding the sharp boundaries and unnatural transitions common in traditional random functions. It was invented by Ken Perlin in 1983, initially for creating special effects in the movie *Tron*, and won an Academy Award for Technical Achievement in 1997 (not 1985).
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281315736.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281315736.png" alt="picture" %}
 
 Perlin noise has two critically important properties:
 
@@ -54,12 +54,12 @@ The core idea behind implementing Perlin noise is actually not complex: **achiev
 1.  **Define a Grid and Assign Gradients**
     In a given dimensional space, define a grid at fixed intervals. Assign a random gradient vector to each grid point according to a set rule.
 
-    <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281319049.png" alt="picture">
+    {% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281319049.png" alt="picture" %}
 
 2.  **Calculate the Grid Cell for a Given Point**
     For any given point, determine the grid cell it belongs to. In 2D space, this means finding the four surrounding grid points and the distance vectors from each of these grid points to the given point.
 
-    <img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281320386.png" alt="picture">
+    {% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281320386.png" alt="picture" %}
 
 3.  **Calculate Influence Values**
     For each surrounding grid point, calculate the dot product of its gradient vector and the distance vector from step 2. This dot product represents the "influence" of that grid point on the final value.
@@ -130,7 +130,7 @@ The implementation of the `Fade` function is simple, but its role is crucial.
 
 After calculating the influence values from each grid point, we need to interpolate them. If we use simple linear interpolation, the result won't be very smooth, especially at the grid lines. The `Fade` function acts as a mapping function, specifically the polynomial \(f(x)=6x^5-15x^4+10x^3\). Its graph is shown below:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281326466.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281326466.png" alt="picture" %}
 
 The key feature of this function is that its first and second derivatives are zero at both \(x=0\) and \(x=1\), which ensures a smooth transition across grid boundaries. This fade function is also vital in other noise algorithms like Value Noise and Simplex Noise.
 
@@ -203,7 +203,7 @@ Finally, we calculate the `Grad` (influence) for each corner and use bilinear in
 
 The diagram below clearly illustrates the relationships between these variables and the calculation of the influence values:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281337769.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281337769.png" alt="picture" %}
 
 This concludes the discussion on the implementation of Perlin noise. Next, I will apply it to practical procedural generation.
 
@@ -219,7 +219,7 @@ I have created several examples in Unity that use Perlin noise for procedural ma
 
 For 2D Tilemap generation, the application of Perlin noise is very direct. The noise map itself can be visualized as a 2D grayscale image, as shown below.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281338114.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281338114.png" alt="picture" %}
 
 We just need to convert this 2D image into data and then map that data onto a Tilemap.
 
@@ -251,35 +251,35 @@ public static float[,] GetNoiseMap(int seed, int width, int height, float scale)
 
 In the code above, we first set a `seed` to ensure deterministic randomness. We use an `offset` and `scale` to sample the noise field and write the values into a 2D array `noiseMap`. The diagram below illustrates the concepts of `offset` and `scale`:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281344950.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281344950.png" alt="picture" %}
 
 You can think of the Perlin noise function as an infinite noise texture. Our task is to sample a rectangular region from it. The `offset` determines the starting point of our sample, and it's randomly generated. The `scale` determines the zoom level of our sample (more accurately, the "sampling frequency"). A smaller `scale` value results in a more detailed, zoomed-in noise map.
 
 The following GIF effectively demonstrates the impact of `scale` on the noise map:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281345680.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281345680.gif" alt="picture" %}
 
 ### Generating the Tilemap
 
 After obtaining the noise map, the next step is straightforward: map the data onto a Tilemap. I implemented this using both a grayscale visualization and a tile set from the internet ([Overworld Tileset Grass Biome by beast-pixels](https://beast-pixels.itch.io/overworld-tileset-grass-biome)). The GIF above shows the grayscale version, so I'll showcase the tile-based one here.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281345858.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281345858.png" alt="picture" %}
 
 You can adjust the `scale` and `waterProbability` parameters to change the generated outcome.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346036.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346036.gif" alt="picture" %}
 
 Note that I used Unity's `Rule Tile` feature to achieve adaptive tiling.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346726.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346726.png" alt="picture" %}
 
 ### Improving the Generated Result
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346071.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346071.png" alt="picture" %}
 
 If we look closely at the generated terrain, we can spot some awkward areas:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346646.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281346646.png" alt="picture" %}
 
 In the circled areas, the rule tiles are not matched correctly. This is because the tile set doesn't provide corresponding tiles for these single-tile-wide "tendrils." We can process the noise map to eliminate these unmatchable configurations.
 
@@ -317,7 +317,7 @@ private bool CheckAroundHavePairLand(int x, int y)
 ```
 *Correction from Author's Logic:* The original logic checked if a water tile had opposing land neighbors. To eliminate tendrils, we should remove water tiles that *don't* have opposing land neighbors. The code here iteratively removes these undesirable water tiles. This adds some performance overhead but improves the final result's quality.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281348309.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281348309.png" %}
 
 ### Summary
 
@@ -339,11 +339,11 @@ When generating 3D mountainous terrain, we first need to create a color texture 
 
 The logic is very similar to the 2D Tilemap generation, but we replace the Tilemap with a Texture. The result is as follows:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281349669.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281349669.png" %}
 
 By configuring a more detailed color gradient, we can achieve a better-looking terrain map.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281350900.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281350900.png" %}
 
 ### Fractal Perlin Noise
 
@@ -357,7 +357,7 @@ We will introduce additional parameters into our noise map generation algorithm 
 *   `persistence`: The factor by which the amplitude of each octave is reduced.
 *   `lacunarity`: The factor by which the frequency of each octave is increased.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281350601.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281350601.png" %}
 
 My implementation is as follows:
 
@@ -419,15 +419,15 @@ This implementation iteratively adds layers of noise, providing several paramete
 
 The GIF below shows the effect:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281352301.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281352301.gif" %}
 
 With fractal Perlin noise, the quality of the terrain map has significantly improved. It has richer detail and more varied layers:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281352481.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281352481.png" %}
 
 Furthermore, by adjusting the parameters, we can achieve different terrain styles:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281353760.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281353760.gif" %}
 
 ### Giving the Terrain Height
 
@@ -435,7 +435,7 @@ In the previous steps, I applied a color texture to a plane based on the noise m
 
 The idea is simple: we already have a heightmap (our noise map). We can use it to set the vertex heights of a plane's mesh.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281353915.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281353915.png" %}
 
 As shown in the code below, I generate the mesh data based on the noise map:
 
@@ -472,9 +472,9 @@ I also added `heightMultiplier` and `heightCurve` parameters. These control the 
 
 The resulting effect is as follows:
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281355566.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281355566.gif" %}
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281355788.gif" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281355788.gif" %}
 
 ## Other Procedural Generation Algorithms
 
@@ -490,7 +490,7 @@ Simplex noise has several notable features:
 *   **Better Visual Quality:** Simplex noise does not produce the noticeable axis-aligned artifacts that can appear in Perlin noise, resulting in more natural and realistic terrain.
 *   **Better Gradient Distribution:** The gradient distribution of Simplex noise is more uniform, which helps create smoothly transitioning terrain.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281357455.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281357455.png" %}
 
 The specific implementation of Simplex noise is relatively complex and won't be detailed here, but you can refer to [this paper](https://weber.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf) for an implementation. Its core idea involves dividing the input space into a series of simplices (like triangles or tetrahedra) and generating random gradients at their vertices. The final noise value is then generated by interpolating these gradients.
 
@@ -506,7 +506,7 @@ The basic idea is to start with an initial seed and have randomly walking partic
 4.  **Attachment:** The particle sticks to the aggregate and becomes part of it.
 5.  **Repeat:** Repeat steps 2-4 until the desired structure is formed.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281357052.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281357052.png" %}
 
 The DLA algorithm is excellent at generating tree-like or branching structures like the one above. By assigning height based on the structure's density and applying some blurring, it can be used to form the underlying structure of mountain ranges. However, DLA is iterative and computationally expensive. Its nature makes it difficult to parallelize on a GPU, which limits its application.
 
@@ -522,6 +522,6 @@ Hydraulic erosion simulates the erosion and deposition caused by rainfall and ri
 
 For an implementation reference, see [this repository](https://github.com/SebLague/Hydraulic-Erosion).
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281358473.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202411281358473.png" %}
 
 Erosion algorithms also have their drawbacks. Since erosion is a post-processing step, it means the terrain generated by Perlin noise loses its deterministic (hashable) property. Additionally, being an iterative process, it incurs a significant performance cost.

@@ -12,7 +12,7 @@ labels:
 summary: "The week 3 group project for the 'Game Creation 2' course.<br>A two-player game centered on the experience of 'trust.'"
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211628143.jpeg" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211628143.jpeg" %}
 
 # BlindTrust
 
@@ -34,4 +34,4 @@ This is a simple yet serious simulation game about navigating the world as a vis
 
 Player feedback like, "I'm sweating buckets," "Is it really this difficult?" and "This is terrifying," highlights the game's impact. It's only when you are plunged into darkness that you can begin to grasp the profound sense of helplessness. The challenges we face for a few minutes in this game are a lifelong reality for the visually impaired. We hope this experience encourages everyone to show more respect and consideration, starting with simple but crucial actions like keeping sidewalks for the blind unobstructed.
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211629783.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202407211629783.png" %}
