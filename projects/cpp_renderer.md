@@ -30,14 +30,6 @@ Here are some examples of the output images:
 
 *Since Markdown does not natively display TGA images, the images here have been converted to PNG format for display purposes.*
 
-<div class="text-center p-4">
-  <img width="200px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202341390.png" class="img-thumbnail" >
-  <img width="200px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202345553.png" class="img-thumbnail" >
-  <img width="200px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202345558.png" class="img-thumbnail" >
-  <img width="200px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202351974.png" class="img-thumbnail" >
-  <img width="200px" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202351979.png" class="img-thumbnail" >
-</div>
-
 {% include projects/image_row.html
     srcs="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202341390.png,
           https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202406202345553.png,
