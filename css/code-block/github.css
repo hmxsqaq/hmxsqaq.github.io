@@ -1,0 +1,30 @@
+﻿/* --- Code Block Style: GitHub Light --- */
+figure.highlight,
+div.highlight {
+    background-color: #f6f8fa;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    margin: 1.5em 0;
+    padding: 1.2em;
+    overflow: auto;
+    position: relative;
+}
+
+.highlight pre {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.highlight code {
+    font-family: 'JetBrains Mono', 'mononoki', 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    white-space: pre;
+    color: #1f2328;
+}
+
+.highlight .lineno {
+    user-select: none;
+}
