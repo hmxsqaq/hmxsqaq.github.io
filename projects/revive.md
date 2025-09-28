@@ -12,7 +12,7 @@ labels:
 summary: "Project of a 72h Game Jam hosted by the School of Animation and Digital Arts of CUC and Unreal Engine.<br>This was my first Game Jam, a truly memorable experience."
 ---
 
-<img class="my-markdowm-img" src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261605787.png" alt="picture">
+{% include projects/image.html src="https://hmxs-1315810738.cos.ap-shanghai.myqcloud.com/img/202303261605787.png" %}
 
 > **Gameplay Video**: [https://www.bilibili.com/video/BV1p44y1Q7tY/](https://www.bilibili.com/video/BV1p44y1Q7tY/)
 
