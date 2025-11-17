@@ -9,6 +9,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "webrick", "~> 1.7"
-gem 'html-proofer'
+# gem 'html-proofer'  # Temporarily disabled due to nokogiri compilation issues on Windows
 gem 'jekyll-gist'
 gem 'rouge'
