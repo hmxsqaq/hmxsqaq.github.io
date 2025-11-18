@@ -37,7 +37,7 @@ This portfolio customizes the default TechFolios template in the following ways:
 
 ## License
 
-This project is based on TechFolios and is licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
+This project is based on TechFolios and is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 Original TechFolios template: https://techfolios.github.io/
 
