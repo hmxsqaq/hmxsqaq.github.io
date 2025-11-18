@@ -6,7 +6,8 @@
     "email": "hmxsqaq@gmail.com",
     "phone": "86-18321938171",
     "website": "https://hmxs.games",
-    "summary": "A driven game developer and Digital Media Technology student at the Communication University of China(CUC), specializing in C++/C# and engines like Unity and Godot.<br><br>Let's build something amazing together!",
+    "summary": "A passionate game developer and Digital Media Technology student at Communication University of China. Specializing in C++/C# and proficient in Unity, Godot, and Unreal Engine.",
+    "summary2": "Let's create something extraordinary together!",
     "location": { "address": "", "postalCode": "", "city": "Shanghai", "countryCode": "China", "region": "" },
     "profiles": [
       { "network": "github", "username": "hmxsqaq", "url": "https://github.com/hmxsqaq" }

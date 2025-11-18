@@ -1,0 +1,196 @@
+/* ========================================
+   Blogs Section - Glass Morphism Design
+   Apple/iOS Inspired Aesthetic
+   ======================================== */
+
+/* Section Background - Gradient with Animated Blobs */
+.blogs-section {
+    position: relative;
+    background: linear-gradient(135deg,
+        #f8f9fa 0%,
+        #ffffff 50%,
+        #fafafa 100%);
+    padding: 1rem 0 !important;
+    overflow: hidden;
+}
+
+/* Blog Card - Glass Morphism with Background Image */
+.blog-card {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(30px) saturate(180%);
+
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+
+    box-shadow:
+        0 8px 32px -8px rgba(0, 0, 0, 0.1),
+        0 0 0 1px rgba(255, 255, 255, 0.5);
+
+    overflow: hidden;
+    clip-path: inset(0 round 20px);  /* 强制圆角裁剪 */
+
+    /* 硬件加速和抗锯齿优化 */
+    transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.blog-card:hover {
+    transform: scale(1.03) translateZ(0);
+    background: rgba(255, 255, 255, 0.6);
+    border-color: rgba(0, 0, 0, 0.08);
+    box-shadow:
+        0 20px 56px -16px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+/* Blog Background Image */
+.blog-card .card-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.blog-card:hover .card-bg-image {
+    transform: scale(1.05);
+}
+
+/* Glass Overlay on Background Image */
+.blog-card .card-bg-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0.9) 50%,
+        rgba(255, 255, 255, 0.8) 100%
+    );
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    z-index: 2;
+}
+
+/* Blog Card Body */
+.blog-card .card-body {
+    position: relative;
+    z-index: 3;
+    padding: 1.75rem;
+}
+
+/* Blog Title */
+.blog-card .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: -0.01em;
+    color: #1a202c;
+    margin-bottom: 0.75rem;
+    transition: color 0.3s ease;
+}
+
+.blog-card .card-title a {
+    color: inherit;
+}
+
+.blog-card:hover .card-title {
+    color: #2d3748;
+}
+
+/* Blog Date */
+.blog-card .card-text small {
+    font-size: 0.875rem;
+    color: #718096;
+    font-weight: 500;
+}
+
+/* Blog Summary */
+.blog-card .card-text {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 0.938rem;
+}
+
+/* Blog Labels/Tags - Glass Pills */
+.blog-label {
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    color: #4a5568 !important;
+    font-weight: 500;
+    font-size: 0.813rem;
+    padding: 0.35rem 0.75rem;
+
+    box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.08);
+    transition: all 0.2s ease;
+}
+
+.blog-label:hover {
+    background: rgba(255, 255, 255, 0.8) !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.12);
+}
+
+/* Section Title */
+.blogs-section .display-4 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #1a202c;
+}
+
+/* "See all" Link Styling */
+.blogs-section .text-center a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+
+    color: #2d3748;
+    text-decoration: none;
+    font-weight: 500;
+
+    box-shadow: 0 4px 12px -4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.blogs-section .text-center a:hover {
+    background: rgba(255, 255, 255, 0.7);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+    .blog-card {
+        border-radius: 16px;
+    }
+
+    .blog-card .card-body {
+        padding: 1.5rem;
+    }
+}

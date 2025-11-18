@@ -79,17 +79,4 @@
     object-fit: cover;
 }
 
-.my-profile-picture {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-
-    display: block;
-    margin: 1.5rem auto;
-
-    border-radius: 10%;
-    box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.15),
-    0 8px 12px -4px rgba(0, 0, 0, 0.08);
-
-    max-width: 100%;
-}
+/* .my-profile-picture 已移至 about.css，使用玻璃态设计 */
