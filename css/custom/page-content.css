@@ -119,6 +119,7 @@
 }
 
 /* Code Blocks */
+/* Inline code (e.g., `code` in text) */
 .container.py-4 code {
     background: rgba(0, 0, 0, 0.04);
     border-radius: 4px;
@@ -127,18 +128,20 @@
     color: #e53e3e;
 }
 
-.container.py-4 pre {
-    background: rgba(0, 0, 0, 0.03);
-    border-radius: 12px;
-    padding: 1.25rem;
-    overflow-x: auto;
-    margin: 1.5rem 0;
+/* Syntax highlighted code blocks - override template spacing */
+.container.py-4 figure.highlight,
+.container.py-4 div.highlight {
+    padding: 1.25rem 1.5rem !important;  /* Better horizontal spacing */
+    border-radius: 12px;  /* Match page design style */
 }
 
-.container.py-4 pre code {
+/* Reset inline code styles inside syntax highlighted blocks */
+.container.py-4 figure.highlight code,
+.container.py-4 div.highlight code {
     background: transparent;
     padding: 0;
     color: inherit;
+    font-size: inherit;
 }
 
 /* Tables */
