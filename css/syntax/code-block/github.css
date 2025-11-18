@@ -20,7 +20,7 @@ div.highlight {
 }
 
 .highlight code {
-    font-family: 'JetBrains Mono', 'mononoki', 'Fira Code', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-family: 'JetBrains Mono', 'mononoki', 'Fira Code', 'SF Mono', Consolas, 'Monaco', 'Courier New', monospace;
     white-space: pre;
     color: #1f2328;
 }

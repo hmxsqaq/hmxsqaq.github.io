@@ -1,12 +1,12 @@
 /* Rubik Theme: modifies the default theme to use the chunkier Rubik for the header fonts. */
 
-/* Use Open Sans as the default font and Roboto for headlines */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,400,500,700");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+/*noinspection CssUnresolvedCustomProperty*/
 :root {
-  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-font-sans-serif: Rubik, sans-serif;
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
@@ -17,7 +17,7 @@
 }
 
 h1,h2,h3,h4,h5 {
-  font-family: Rubik;
+    font-family: Rubik, sans-serif;
 }
 
 /* Format social media icons */
@@ -49,6 +49,7 @@ a {
 }
 
 /* Simplify the styling of the bottom of Essay cards. */
+/*noinspection CssUnresolvedCustomProperty*/
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
