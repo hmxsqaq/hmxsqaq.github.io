@@ -118,6 +118,14 @@
     color: #2d3748;
 }
 
+.container.py-4 blockquote p {
+    margin-bottom: 0.5rem;
+}
+
+.container.py-4 blockquote p:last-child {
+    margin-bottom: 0;
+}
+
 /* Code Blocks */
 /* Inline code (e.g., `code` in text) */
 .container.py-4 code {
