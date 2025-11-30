@@ -71,7 +71,7 @@ The core idea behind implementing Perlin noise is actually not complex: **achiev
 
 In the previous section, I briefly introduced the principles of Perlin noise. While it may not seem difficult, there are many important details in its implementation. Based on Ken Perlin's paper "Improving Noise" from SIGGRAPH 2002, I have implemented a C# version of the Perlin noise algorithm in Unity:
 
-[https://github.com/hmxsqaq/Unity-ProceduralMapGenerationPerlinNoise/blob/master/Assets/Scripts/PerlinNoise.cs](https://github.com/hmxsqaq/Unity-ProceduralMapGenerationPerlinNoise/blob/master/Assets/Scripts/PerlinNoise.cs)
+[https://github.com/hmxsqaq/Unity-ProceduralMapGenerationPerlinNoise/blob/master/Assets/Scripts/Noise/PerlinNoise.cs](https://github.com/hmxsqaq/Unity-ProceduralMapGenerationPerlinNoise/blob/master/Assets/Scripts/Noise/PerlinNoise.cs)
 
 *Note: Unity's `Mathf` library provides a built-in method for Perlin noise. This implementation is for a better understanding of the algorithm. For practical applications, using the library function is sufficient.*
 
